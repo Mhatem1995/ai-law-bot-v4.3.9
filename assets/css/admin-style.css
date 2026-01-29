@@ -1,0 +1,141 @@
+/* AI Law Bot Admin Styles v4.0 */
+
+.ai-law-bot-admin-header {
+    background: white;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.ai-law-bot-admin-header .description {
+    font-size: 14px;
+    color: #646970;
+    margin: 0;
+}
+
+.ai-law-bot-admin-info {
+    background: white;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.ai-law-bot-admin-info h2 {
+    margin-top: 0;
+    padding-top: 0;
+    border-bottom: 1px solid #dcdcde;
+    padding-bottom: 10px;
+}
+
+.ai-law-bot-admin-info h3 {
+    margin-top: 25px;
+    color: #1d2327;
+}
+
+.ai-law-bot-admin-info code {
+    background: #f0f0f1;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+}
+
+.ai-law-bot-admin-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.ai-law-bot-admin-info ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f0f0f1;
+}
+
+.ai-law-bot-admin-info ul li:last-child {
+    border-bottom: none;
+}
+
+.ai-law-bot-admin-info ul li strong {
+    color: #1a5490;
+    font-size: 18px;
+}
+
+/* RTL Support for Admin */
+.rtl .ai-law-bot-admin-header,
+.rtl .ai-law-bot-admin-info {
+    text-align: right;
+    direction: rtl;
+}
+
+/* Settings Form Styling */
+.form-table th {
+    font-weight: 600;
+}
+
+.form-table input[type="text"],
+.form-table input[type="password"],
+.form-table input[type="number"],
+.form-table select,
+.form-table textarea {
+    border-radius: 4px;
+}
+
+.form-table input[type="password"] {
+    font-family: 'Courier New', monospace;
+    letter-spacing: 2px;
+}
+
+.form-table .description {
+    color: #646970;
+    font-size: 13px;
+}
+
+.form-table .description a {
+    color: #1a5490;
+    text-decoration: none;
+}
+
+.form-table .description a:hover {
+    text-decoration: underline;
+}
+
+/* Cards */
+.card {
+    background: white;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    padding: 15px 20px;
+    margin: 10px 0;
+}
+
+.card h2 {
+    margin-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* Tables */
+.wrap[dir="rtl"] table {
+    direction: rtl;
+    text-align: right;
+}
+
+.wrap[dir="rtl"] .tablenav .alignleft {
+    float: right !important;
+}
+
+.wrap[dir="rtl"] .subsubsub {
+    float: right;
+}
+
+/* Success Message */
+.notice.updated {
+    border-right-color: #00a32a;
+}
+
+.rtl .notice.updated {
+    border-left-color: #00a32a;
+    border-right-color: #c3c4c7;
+}
